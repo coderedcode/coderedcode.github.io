@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Colaborate Regular';
+  src: url("/fonts/ColabReg-webfont.woff") format("woff"); }
+
+body {
+  font-family: "Colaborate Regular", "Raleway", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  text-align: center;
+  padding: 5vh 5vw; }
+
+a {
+  color: rgba(0, 0, 0, 0.7); }
+  a:focus, a:hover {
+    color: rgba(0, 0, 0, 0.6); }
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 2em;
+  margin: 2em;
+  text-transform: uppercase; }
+
+p {
+  font-size: 1.5em; }
+
+ul.homepage-list {
+  list-style-type: none;
+  padding: 0; }
+  ul.homepage-list li {
+    display: inline-block; }
+
+div.homepage-client-logo {
+  width: 200px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
